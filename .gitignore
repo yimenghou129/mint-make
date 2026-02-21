@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 /.pnp
 .pnp.*
 .yarn/*
@@ -23,6 +24,12 @@
 # misc
 .DS_Store
 *.pem
+._*
+.AppleDouble
+.LSOverride
+
+# local auth store (MVP 用户数据存于 data/users.json)
+/data/users.json
 
 # debug
 npm-debug.log*

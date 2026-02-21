@@ -3,6 +3,15 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* 设计 token：接 Figma 时在这里对齐，大改 UI 时只改这里 */
+  --color-primary: #171717;
+  --color-primary-foreground: #ffffff;
+  --color-muted: #71717a;
+  --color-muted-bg: #f4f4f5;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --space-section: 24px;
 }
 
 @theme inline {
